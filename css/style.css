@@ -1,0 +1,60 @@
+body{
+	font-size: sans-serif;
+	background-color: #088A4B;
+	background: linear-gradient(90deg, #FE2EC8, #DF013A);
+	padding: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 3em;
+	font-family: sans-serif;
+}
+
+div#calculadora{
+	border: 1px solid black;
+	width: 250px;
+	margin: 20px auto;
+	padding: 3px;
+	background-color: black;
+	border-radius: 10px;
+}
+
+table{
+	width: 100%;
+}
+
+td{
+	width: 58px;
+}
+
+tr{
+	height: 50px;
+}
+
+input#visor{
+	width: 235px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: right;
+	font-size: 2em;
+	background-color: white;
+	color: black;
+}
+
+input{
+	width: 100%;
+	height: 45px;
+	border: 0px;
+	background-color: #2E2E2E;
+	color: white;
+	font-size: 1.3em;
+	border-radius: 5px;
+	text-align: center;
+}
+
+td.result input{
+	height: 150px;
+	background-color: #2E64FE;
+}
+
